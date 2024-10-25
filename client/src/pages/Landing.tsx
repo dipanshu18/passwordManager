@@ -8,9 +8,9 @@ export function Landing() {
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">Password Manager</h1>
           <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            A secure and easy-to-use tool designed to help you store and manage
+            your passwords for different platforms. The app ensures that your
+            passwords are safely encrypted and easily retrievable.
           </p>
           <Link to="/signup">
             <button className="btn btn-primary text-white">Get Started</button>
