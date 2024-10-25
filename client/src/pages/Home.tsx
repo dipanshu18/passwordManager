@@ -97,7 +97,7 @@ export function Home() {
           </div>
         </div>
 
-        <div className="max-w-[400px]">
+        <div className="max-w-xl">
           <div>
             <div className="overflow-x-auto">
               <table className="table">
@@ -113,7 +113,7 @@ export function Home() {
                 <tbody>
                   {data && data.length > 0 ? (
                     data.map((password, idx) => (
-                      <PasswordRow idx={idx} password={password} />
+                      <PasswordRow key={idx} idx={idx} password={password} />
                     ))
                   ) : (
                     <>
